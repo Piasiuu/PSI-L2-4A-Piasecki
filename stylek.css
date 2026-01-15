@@ -1,0 +1,53 @@
+* {
+        margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    background-color: lightgray;
+    height: 30px;
+    align-items: center;
+    
+}
+
+.menu li {
+    margin-right: 30px;
+    position: relative;    
+}
+
+
+.submenu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    
+    
+}
+
+.menu > li:hover .submenu {
+    display: block;
+    padding: 0px;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(25, 190, 245);
+}
+
+body {
+    background-color: beige;
+}
+
+.submenu li {
+    padding-bottom: 10px;
+}
