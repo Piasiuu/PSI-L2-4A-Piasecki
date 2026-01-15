@@ -1,3 +1,6 @@
-document.getElementById("btn").addEventListener("click", () => {
-    alert("moje hobby to tenis stolowyy!");
-});
+function btn()
+{
+    alert("moje hobby to tenis stolowy");
+}
+
+
